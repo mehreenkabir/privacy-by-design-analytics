@@ -21,9 +21,6 @@ re-identification.
 privileges.
 
 ---
-
-## Project Structure
-
 ## Project Structure
 
 The project is organized into several logical components:

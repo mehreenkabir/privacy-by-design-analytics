@@ -24,18 +24,17 @@ privileges.
 
 ## Project Structure
 
-Privacy-by-Design-Analytics/
-├── scripts/                   # All Python scripts for processing
-│   ├── data_collection.py     # Generates fake data
-│   ├── data_anonymization.py  # Hashes and minimizes personal fields
-│   ├── differential_privacy.py# Adds noise to birth year
-│   └── access_control.py      # Simulated role-based data access
-├── data/                      # Generated CSVs (raw, anonymized, and with noise)
-├── logs/                      # Timestamped audit log
-├── compliance/                # Compliance report in markdown
-├── requirements.txt           # Python dependencies
-└── README.md                  # Project overview
-
+Privacy-by-Design-Analytics/ 
+├── scripts/ # All Python scripts for processing │ 
+├── data_collection.py # Generates fake data │ 
+├── data_anonymization.py # Hashes and minimizes personal fields │ 
+├── differential_privacy.py# Adds noise to birth year │
+└── access_control.py # Simulated role-based data access 
+├── data/ # Generated CSVs (raw, anonymized, and with noise) 
+├── logs/ # Timestamped audit log 
+├── compliance/ # Compliance report in markdown 
+├── requirements.txt # Python dependencies 
+└── README.md # Project overview
 
 ---
 

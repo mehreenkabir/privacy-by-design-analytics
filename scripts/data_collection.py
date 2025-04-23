@@ -11,8 +11,7 @@ data = {
     'email': [fake.email() for _ in range(100)],
     'phone_number': [fake.phone_number() for _ in range(100)],
     'address': [fake.address().replace('\n', ', ') for _ in range(100)],
-    'date_of_birth': [fake.date_of_birth().strftime("%Y-%m-%d") for _ in 
-range(100)]
+    'date_of_birth': [fake.date_of_birth().strftime("%Y-%m-%d") for _ in range(100)]
 }
 
 # Create a DataFrame and save it to CSV

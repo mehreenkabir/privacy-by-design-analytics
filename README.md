@@ -24,17 +24,25 @@ privileges.
 
 ## Project Structure
 
-Privacy-by-Design-Analytics/ 
-├── scripts/ # All Python scripts for processing │ 
-├── data_collection.py # Generates fake data │ 
-├── data_anonymization.py # Hashes and minimizes personal fields │ 
-├── differential_privacy.py# Adds noise to birth year │
-└── access_control.py # Simulated role-based data access 
-├── data/ # Generated CSVs (raw, anonymized, and with noise) 
-├── logs/ # Timestamped audit log 
-├── compliance/ # Compliance report in markdown 
-├── requirements.txt # Python dependencies 
-└── README.md # Project overview
+## Project Structure
+
+The project is organized into several logical components:
+
+- `scripts/` contains all the Python scripts:
+  - `data_collection.py`: generates synthetic user data
+  - `data_anonymization.py`: applies hashing and minimization to protect PII
+  - `differential_privacy.py`: injects noise to the birth year for statistical privacy
+  - `access_control.py`: simulates role-based access for different data consumers
+
+- `data/` holds all generated CSVs, including raw and anonymized versions.
+
+- `logs/` stores audit logs with timestamps to track all data operations.
+
+- `compliance/` contains a written compliance report documenting privacy measures taken.
+
+- `requirements.txt` lists the Python dependencies required to run the project.
+
+- `README.md` provides a detailed overview of the project and its structure.
 
 ---
 
